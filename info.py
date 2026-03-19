@@ -37,7 +37,7 @@ OWNER = int(os.environ.get("OWNER", "6045160821"))
 CHANNEL_LINK = environ.get('CHANNEL_LINK', 'https://t.me/You_Want_To_Know_Me')
 GROUP_LINK = environ.get('GROUP_LINK', 'https://t.me/New_Movies_Bots')
 
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://TOXIC:TOXIC@cluster0.rjcseic.mongodb.net/?appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://TOXIC:TOXIC@cluster0.ahjc9u9.mongodb.net/?appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "filter")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'files')
 MULTIPLE_DB = is_enabled(os.environ.get('MULTIPLE_DB', "True"), True)
