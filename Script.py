@@ -130,7 +130,7 @@ sᴇɴᴅ ᴍᴇ ᴀɴʏ ᴍᴏᴠɪᴇ ᴏʀ sᴇʀɪᴇs ɴᴀᴍᴇ ᴀɴᴅ 
 
 <b>‣ ꜱɪᴢᴇ : </b>{file_size}
 
-<b>🍁 ʙʏ : <a href="https://telegram.me/techifybots">[ ᴛᴇᴄʜɪꜰʏʙᴏᴛs ]</a></b>"""
+<b>🍁 ʙʏ : <a href="https://t.me/You_Want_To_Know_Me">[ Rox࿐Star✧ ]</a></b>"""
 
     IMDB_TEMPLATE_TXT = """<b><a href={url}>{title} (<a href={url}/releaseinfo>{year}</a>)
 
