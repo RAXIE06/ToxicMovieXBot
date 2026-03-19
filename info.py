@@ -24,7 +24,7 @@ PICS = (environ.get('PICS', 'https://image.zaw-myo.workers.dev/image/89cf6ffd-50
 MELCOW_PHOTO = environ.get("MELCOW_PHOTO", "https://i.ibb.co/2769f1rF/photo-2025-09-03-14-48-34-7548400762112442372.jpg")
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6045160821').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002998237653 -1002432923495 -1002177098038 -1002311455280 -1002228576325 -1002379115085 -1002203125942 -1002388961956 -1002181251938 -1002336384474 -1002225794978 -1002228607997 -1001974180754 -1002230358129').split()]
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1003797577777'))
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1002224509783'))
 PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '0'))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1002301231547').split()]
@@ -34,17 +34,17 @@ REQST_CHANNEL = int(ch) if (ch := environ.get("REQST_CHANNEL", "0")) and id_patt
 SUPPORT_CHAT_ID = int(ch) if (ch := environ.get("SUPPORT_CHAT_ID", "0")) and id_pattern.search(ch) else None
 
 OWNER = int(os.environ.get("OWNER", "6045160821"))
-CHANNEL_LINK = environ.get('CHANNEL_LINK', 'https://telegram.me/Techifybots')
-GROUP_LINK = environ.get('GROUP_LINK', 'https://telegram.me/TechifySupport')
+CHANNEL_LINK = environ.get('CHANNEL_LINK', 'https://t.me/You_Want_To_Know_Me')
+GROUP_LINK = environ.get('GROUP_LINK', 'https://t.me/New_Movies_Bots')
 
 DATABASE_URI = environ.get('DATABASE_URI', "")
 DATABASE_NAME = environ.get('DATABASE_NAME', "filter")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'files')
-MULTIPLE_DB = is_enabled(os.environ.get('MULTIPLE_DB', "False"), False)
+MULTIPLE_DB = is_enabled(os.environ.get('MULTIPLE_DB', "True"), True)
 DATABASE_URI2 = environ.get('DATABASE_URI2', "")
 
 UPDATE_NOTIFICATION = bool(environ.get('UPDATE_NOTIFICATION', False))
-UPDATE_CHANNEL = int(environ.get('UPDATE_CHANNEL', ''))
+UPDATE_CHANNEL = int(environ.get('UPDATE_CHANNEL', '0'))
 IMAGE_FETCH = bool(environ.get('IMAGE_FETCH', True))
 LINK_PREVIEW = bool(environ.get('LINK_PREVIEW', False))
 ABOVE_PREVIEW = bool(environ.get('ABOVE_PREVIEW', False))
@@ -52,18 +52,18 @@ TMDB_API_KEY = environ.get('TMDB_API_KEY', '')
 TMDB_POSTER = bool(environ.get('TMDB_POSTER', True))
 LANDSCAPE_POSTER = bool(environ.get('LANDSCAPE_POSTER', True))
 
-IS_VERIFY = is_enabled('IS_VERIFY', False)
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', ''))
+IS_VERIFY = is_enabled('IS_VERIFY', True)
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1003797577777'))
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://i.ibb.co/xqNtSMpS/photo-2025-09-18-15-24-38-7551450511015149572.jpg")
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/TechifyBots")
-TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/TechifyBots")
-TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/TechifyBots")
-SHORTENER_API = environ.get("SHORTENER_API", "a7ac9b3012c67d7491414cf272d82593c75f6cbb")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "omegalinks.in")
-SHORTENER_API2 = environ.get("SHORTENER_API2", "a7ac9b3012c67d7491414cf272d82593c75f6cbb")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "omegalinks.in")
-SHORTENER_API3 = environ.get("SHORTENER_API3", "a7ac9b3012c67d7491414cf272d82593c75f6cbb")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "omegalinks.in")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/Vega_Backup/6")
+TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/Vega_Backup/6")
+TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/Vega_Backup/6")
+SHORTENER_API = environ.get("SHORTENER_API", "32ca9882210b1fbe3e2382848f1cabbf904bd2e4")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "softurl.in")
+SHORTENER_API2 = environ.get("SHORTENER_API2", "32ca9882210b1fbe3e2382848f1cabbf904bd2e4")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "softurl.in")
+SHORTENER_API3 = environ.get("SHORTENER_API3", "32ca9882210b1fbe3e2382848f1cabbf904bd2e4")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "softurl.in")
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "1200"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "54000"))
 
@@ -89,7 +89,7 @@ PM_SEARCH = bool(environ.get('PM_SEARCH', False))
 EMOJI_MODE = bool(environ.get('EMOJI_MODE', True))
 BUTTON_MODE = is_enabled((environ.get('BUTTON_MODE', "False")), False)
 STREAM_MODE = bool(environ.get('STREAM_MODE', True))
-PREMIUM_STREAM_MODE = bool(environ.get('PREMIUM_STREAM_MODE', False))
+PREMIUM_STREAM_MODE = bool(environ.get('PREMIUM_STREAM_MODE', True))
 
 LANGUAGES = {"ᴛᴀᴍɪʟ":"tam","ᴛᴇʟᴜɢᴜ":"tel","ᴇɴɢʟɪsʜ":"eng","ʜɪɴᴅɪ":"hin","ᴊᴀᴘᴀɴᴇsᴇ":"jap"}
 QUALITIES = ["360P", "480P", "720P", "1080P", "2160p"]
