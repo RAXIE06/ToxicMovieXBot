@@ -95,7 +95,7 @@ async def start(client, message):
                     InlineKeyboardButton('ᴜᴘɢʀᴀᴅᴇ 🎟', callback_data="premium_info")
                 ],[
                     InlineKeyboardButton(
-    '🎥 Request Movie 🚀',
+    '❌ Movie Missing? Request 🎬',
     url='https://movie-request-three.vercel.app/'
 )
                 ]]
