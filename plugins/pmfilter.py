@@ -1151,7 +1151,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('ᴀʙᴏᴜᴛ 📜', callback_data='about'),
                     InlineKeyboardButton('ᴜᴘɢʀᴀᴅᴇ 🎟', callback_data='premium_info')
                 ],[
-                     InlineKeyboardButton('🌸 ᴀɴɪᴍᴇ ɢᴜɪᴅᴇ 🌸', user_id=int(OWNER))
+                     InlineKeyboardButton(
+    '🎥 Request Movie 🚀',
+    url='https://movie-request-three.vercel.app/'
+)
                 ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_media(
@@ -1253,7 +1256,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "donate":
         buttons = [[
-                InlineKeyboardButton('💳 ᴅᴏɴᴀᴛᴇ ɴᴏᴡ 💳', url='https://TechifyBots.github.io/PayWeb')
+                InlineKeyboardButton('💳 ᴅᴏɴᴀᴛᴇ ɴᴏᴡ 💳', url='https://i.ibb.co/j9f1PRZ8/9999f8b4624b.jpg')
             ],[
                 InlineKeyboardButton('⋞ ʙᴀᴄᴋ', callback_data='about')
             ]]
