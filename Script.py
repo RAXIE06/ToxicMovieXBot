@@ -7,19 +7,13 @@ sᴇɴᴅ ᴍᴇ ᴀɴʏ ᴍᴏᴠɪᴇ ᴏʀ sᴇʀɪᴇs ɴᴀᴍᴇ ᴀɴᴅ 
 👑 ᴏғғɪᴄɪᴀʟ ʙᴏᴛ 🔥 ➤ <a href='https://popcornweb.vercel.app/'>ᴄʟɪᴄᴋ࿐ʜᴇʀᴇ✧</a>
 </b>"""
 
-ABOUT_TXT = """<b>🎬 Ultimate Movie Hub</b>
-
-🎥 Movie not available?
-👉 <a href="https://movie-request-three.vercel.app/">Request Here</a>
-💎 Premium Plans
-👉 <a href="https://subscription-chi-eight.vercel.app/">Buy Premium</a>
-🔥 Instant Movie Access
-👉 <a href="https://per-movie.vercel.app/">Get Now</a>
-📋 All Movie Bots
-👉 <a href="https://rexweb-eight.vercel.app/">Explore Bots</a>
-🎯 Alternative Bot List
-👉 <a href="https://popcornweb.vercel.app/">Backup Access</a>
-⚡ Fast • Easy • Premium Experience"""
+    ABOUT_TXT = """<b>‣ ᴍʏ ɴᴀᴍᴇ : <a href=https://telegram.me/{}>{}</a>
+‣ ᴄʀᴇᴀᴛᴏʀ : <a href='https://telegram.me/ComicArc'>ʀᴀʜᴜʟ</a> 
+‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a>
+‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 𝟹</a> 
+‣ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
+‣ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href='https://heroku.com/'>ʜᴇʀᴏᴋᴜ</a> 
+‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ𝟸 [ ꜱᴛᴀʙʟᴇ ]</b>"""
 
     MULTI_STATUS_TXT = """<b>🗃ᴜsᴇʀs ᴅᴀᴛᴀʙᴀsᴇ 🗃
 
