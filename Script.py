@@ -11,19 +11,14 @@ ABOUT_TXT = """<b>🎬 Ultimate Movie Hub</b>
 
 🎥 Movie not available?
 👉 <a href="https://movie-request-three.vercel.app/">Request Here</a>
-
 💎 Premium Plans
 👉 <a href="https://subscription-chi-eight.vercel.app/">Buy Premium</a>
-
 🔥 Instant Movie Access
 👉 <a href="https://per-movie.vercel.app/">Get Now</a>
-
 📋 All Movie Bots
 👉 <a href="https://rexweb-eight.vercel.app/">Explore Bots</a>
-
 🎯 Alternative Bot List
 👉 <a href="https://popcornweb.vercel.app/">Backup Access</a>
-
 ⚡ Fast • Easy • Premium Experience"""
 
     MULTI_STATUS_TXT = """<b>🗃ᴜsᴇʀs ᴅᴀᴛᴀʙᴀsᴇ 🗃
