@@ -91,14 +91,13 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-                    InlineKeyboardButton('ᴀʙᴏᴜᴛ 📜', callback_data='about'),
-                    InlineKeyboardButton('ᴜᴘɢʀᴀᴅᴇ 🎟', callback_data="premium_info")
-                ],[
-                    InlineKeyboardButton(
-    '❌ Movie Missing? Request 🎬',
-    url='https://movie-request-three.vercel.app/'
-)
-                ]]
+            InlineKeyboardButton('ᴀʙᴏᴜᴛ 📜', callback_data='about'),
+            InlineKeyboardButton('ᴜᴘɢʀᴀᴅᴇ 🎟', callback_data="premium_info")
+        ],[
+            InlineKeyboardButton('🔰 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🔰', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+        ],[
+            InlineKeyboardButton('❌ Movie Missing? Request 🎬', url='https://movie-request-three.vercel.app/')
+        ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_sticker("CAACAgEAAxkBAAEQx7Fpu967Ym6Pg8YYdTYn_-2Ef9FesQACLQMAAh3KEUejkxafRYxDdDoE")
         await asyncio.sleep(2)
